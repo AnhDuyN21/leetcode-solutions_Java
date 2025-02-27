@@ -1,12 +1,10 @@
-import Esay.RepeatedSubstringPattern_0459;
+import Esay.LisenceKeyFormatting_0482;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 public class Main {
     public static void main(String[] args) {
-        RepeatedSubstringPattern_0459 solution = new RepeatedSubstringPattern_0459();
-        System.out.println(solution.repeatedSubstringPattern("abab")); // Output: 5
-        System.out.println(solution.repeatedSubstringPattern("aba")); // Output: 1
-        System.out.println(solution.repeatedSubstringPattern("abcabcabcabc")); // Output: 1
+        LisenceKeyFormatting_0482 solution = new LisenceKeyFormatting_0482();
+        System.out.println(solution.licenseKeyFormatting("5F3Z-2e-9-w", 4));
+        System.out.println(solution.licenseKeyFormatting("2-5g-3-J",2));
     }
 }
